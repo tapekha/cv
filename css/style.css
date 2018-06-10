@@ -1,0 +1,87 @@
+body{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #F5F5F5;
+}
+
+h1 {
+	color: black;
+	font-size: 40px;
+	font-family: fantasy;
+}
+h2 {
+	color: black;
+	font-size: 32px;
+	font-family: fantasy;
+}
+
+img{
+	border-radius: 8px;
+	padding: 18px;
+	width: 150px;
+}
+
+p{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: black;
+}
+
+a {
+	color: #A9A9A9;
+	text-decoration: underline;
+	font-size: 28px;
+	transition-duration: 0.25s;
+}
+
+a:hover {
+	color: #ffffee;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+#skills {
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.facebook-link {
+	position: relative;
+	padding-left: 28px;
+	display: inline-block;
+	color: #33363a;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	transition-duration: 0.3s;
+	background: url("../img/facebook.png") no-repeat left center;
+}
+
+.facebook-link:hover {
+	opacity: 0.8;
+	color: #10859c;
+	text-shadow: none;
+}
+
+.header-nav-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+.header-nav-menu > li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.header-nav-menu > li:first-child {
+	margin-left: 0;
+}
+
+footer {
+	padding: 30px 0;
+}
+
+
